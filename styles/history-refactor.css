@@ -32,8 +32,8 @@ main section {
     flex-grow: 1;
     width: 30%;
     margin: 10px;
-    background-color: beige;
-    border:solid rgb(75, 50, 18) 2px;
+    background-color: rgb(255, 231, 245);
+    border:solid rgb(243, 120, 173) 2px;
     border-radius: 5px;
     padding: 5px;
 }
