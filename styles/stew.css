@@ -1,0 +1,23 @@
+body {
+    background-color:#F5A9D8;
+}
+
+.stew-content {
+    background-color: #cccccc;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color:#254B21
+}
+
+footer {
+    background-color: #254B21;
+    color:white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    clear:both;
+    padding-left: 5px;
+}
