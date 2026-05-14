@@ -16,6 +16,14 @@
     </style>
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        fetch('../pages/nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
     <h1>I'm Aly Ouellette and this is my first webpage, welcome to heck.</h1>
     <h2>School & Course</h2>
     <p>EvCC, Graph 130</p>

@@ -4,20 +4,6 @@ body {
     color: white;
 }
 
-nav a {
-    flex-grow: 1;
-    color: white;
-    text-decoration: none;
-    border: solid white 1px;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: white;
-    color: black;
-}
-
 section a {
     color: white;
 }

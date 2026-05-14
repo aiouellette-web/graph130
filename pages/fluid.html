@@ -9,15 +9,14 @@
 </head>
 <body>
     <header>
-        <nav class="pure-g">
-            <a class="pure-u-1-7" href="../index.html">Home</a>
-            <a class="pure-u-1-7" href="history-refactor.html">History</a>
-            <a class="pure-u-1-7" href="theater.html">Theater</a>
-            <a class="pure-u-1-7" href="stew-recipe.html">Stew</a>
-            <a class="pure-u-1-7" href="cascades.html">Cascades</a>
-            <a class="pure-u-1-7" href="opt-images.html">Optimizing Images</a>
-            <a class="pure-u-1-7" href="#">Contact</a>
-        </nav>
+       <div id="nav-placeholder"></div>
+        <script>
+            fetch('../pages/nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     </header>
     <main>
         <article class="pure-g hero">
