@@ -17,21 +17,14 @@
     </style>
 </head>
 <body>
-    <div class="page-title">
-        <p>GRAPH 130</p>
-    </div>
-    <nav class="hamish">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/theater.html">Theater Bill</a></li>
-            <li><a href="pages/history-refactor.html">History</a></li>
-            <li><a href="pages/stew-recipe.html">Stew</a></li>
-            <li><a href="pages/cascades.html">Cascades</a></li>
-            <li><a href="pages/orcas.html">Orcas Island</a></li>
-            <li><a href="pages/lopez.html">Lopez Island</a></li>
-            <li><a href="pages/media-queries.html">Media Queries</a></li>
-        </ul>
-    </nav>
+   <div id="nav-placeholder"></div>
+        <script>
+            fetch('pages/nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
     <h1>I'm Aly Ouellette and this is my first webpage, welcome to heck.</h1>
     <h2>School & Course</h2>
     <p>EvCC, Graph 130</p>
